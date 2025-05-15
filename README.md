@@ -14,3 +14,10 @@ Jika URL ini sama di program publisher dan subscriber, itu berarti keduanya terh
 ## Running RabbitMQ as Message Broker
 
 ![RabbitMQ](images/rabbitmq-screenshot.png)
+
+## Sending and Processing Event
+
+![publisher](images/publisher.png)
+![subscriber](images/subscriber.png)
+
+Pada kedua gambar di atas, terlihat bagaimana publisher dan subscriber berkomunikasi melalui RabbitMQ. Pada gambar pertama, publisher akan mengirimkan 5 data ke message broker saat perintah `cargo run` dijalankan (dengan catatan terdapat subscriber yang terhubung dengan publisher). Pesan-pesan tersebut kemudian akan diproses dan diterima oleh subscriber, seperti yang ditunjukkan pada gambar kedua.
