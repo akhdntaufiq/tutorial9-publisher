@@ -10,3 +10,7 @@ guest:guest adalah kredensial default (username dan password) untuk mengakses br
 localhost menunjukkan bahwa broker berjalan di mesin lokal.
 5672 adalah port default untuk protokol AMQP.
 Jika URL ini sama di program publisher dan subscriber, itu berarti keduanya terhubung ke broker yang sama. Dengan demikian, pesan yang dikirim oleh publisher dapat diterima oleh subscriber melalui broker tersebut.
+
+## Running RabbitMQ as Message Broker
+
+![RabbitMQ](images/rabbitmq-screenshot.png)
